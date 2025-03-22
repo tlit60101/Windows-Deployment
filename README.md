@@ -29,7 +29,7 @@ You can download WCD in two ways:
 
 ## Using the Test Deployment Package
 
-A test deployment package (`TestDeployment.ppkg`) is provided with this guide. This is not meant to be deployed straight away. Please go through and add/modify the settings. To use this test package:
+A test deployment package (`Windows Deployment Package.ppkg`) is provided with this guide. This is not meant to be deployed straight away. Please go through and add/modify the settings. To use this test package:
 
 1. Open **Windows Configuration Designer**.
 2. Select **Open a project** and browse to the provided `TestDeployment.ppkg`.
