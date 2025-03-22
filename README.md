@@ -1,6 +1,6 @@
 # Windows Configuration Designer Setup Guide
 
-This document details how to download and install Windows Configuration Designer (WCD), create an advanced deployment package, and deploy it during Windows setup.
+This document details how to download and install Windows Configuration Designer (WCD), create an advanced deployment package, and deploy it during Windows setup. Included is a test deployment package (`.ppkg`) that you can open within Windows Configuration Designer and configure according to your needs.
 
 ---
 
@@ -20,7 +20,19 @@ You can download WCD in two ways:
 
 ---
 
+## Using the Test Deployment Package
+
+A test deployment package (`TestDeployment.ppkg`) is provided with this guide. To use this test package:
+
+1. Open **Windows Configuration Designer**.
+2. Select **Open a project** and browse to the provided `TestDeployment.ppkg`.
+3. Modify or customize the settings as necessary.
+
+---
+
 ## Create a Deployment Package (Advanced Settings)
+
+To create a new deployment package from scratch:
 
 1. Launch **Windows Configuration Designer**.
 2. Select **Advanced provisioning**.
@@ -46,8 +58,6 @@ Provisioning commands let you execute custom scripts or registry edits during de
 ```batch
 reg add HKLM\SOFTWARE\Policies\Microsoft\Windows\OOBE /v DisablePrivacyExperience /t REG_DWORD /d 1
 ```
-
----
 
 ### Additional Configuration Options:
 
@@ -76,3 +86,4 @@ Deploy the created package by following these steps:
 ---
 
 For further reference, please see the [official Microsoft documentation](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages).
+
