@@ -23,6 +23,7 @@ You can download WCD in two ways:
 ## RECOMMENDATIONS
 
 1. Keep the deployment package lite. Let your RMM and/or other tools do all the heavy lifting (Install applications, windows updates, etc)
+2. Logging is just output from the terminal. I recommend creating a logging function to replace the current one. I have that on my list of improvements to work on in the future.
 
 ---
 
