@@ -20,6 +20,12 @@ You can download WCD in two ways:
 
 ---
 
+## RECOMMENDATIONS
+
+1. Keep the deployment package lite. Let your RMM and/or other tools do all the heavy lifting (Install applications, windows updates, etc)
+
+---
+
 ## Using the Test Deployment Package
 
 A test deployment package (`TestDeployment.ppkg`) is provided with this guide. To use this test package:
@@ -43,7 +49,7 @@ To create a new deployment package from scratch:
 
 #### Accounts
 - Specify user accounts clearly.
-  - Example: Username: `TechAdmin`
+  - Example: Username: `Admin`
   - Password: `SecurePass123!`
 - Optionally configure auto-login settings.
 
